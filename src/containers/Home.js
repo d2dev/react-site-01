@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'reactstrap';
 import { Card, CardImg, CardBody, CardTitle } from 'reactstrap';
 // import { Component } from "react";
 import heroImg from '../assets/the-beacon.jpg';
+import './Home.css';
 
 function Home () {
     const jumboStyle = {
@@ -17,17 +18,17 @@ function Home () {
             <h1>Bienvenue</h1>
             <Jumbotron style={jumboStyle} className="jumbo">
                 <Container fluid>
-                <Row>
-                    <Col xs="12" sm={{size: 6, offset: 6}}>
-                        <h1 className="display3">Hello, world!</h1>
-                        <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
-                        <hr className="my-2" />
-                        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                        <div>
-                        <Button color="primary">Learn More</Button>
-                        </div>
-                    </Col>
-                </Row>
+                    <Row>
+                        <Col xs="12" sm={{size: 6, offset: 6}}>
+                            <h1 className="title">Hello, world!</h1>
+                            <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
+                            <hr />
+                            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                            <div>
+                                <Button color="primary">Learn More</Button>
+                            </div>
+                        </Col>
+                    </Row>
                 </Container>
             </Jumbotron>
             <Container>
