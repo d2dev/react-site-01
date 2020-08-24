@@ -37,11 +37,13 @@
   }
 }
 
-.jumbo p {
-  color: #fff;
-  background-color: darkslategray;
+/*
+  Footer style
+*/
+footer{
+  padding: 20px;
 }
-.display3 {
-  color: #000;
-  background-color: #fff;
+
+footer hr{
+  color: #242021;
 }
