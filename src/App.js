@@ -23,7 +23,7 @@ function App() {
           <Container>
             <Row>
               <Col sm="12">
-                <Nav>
+                <Nav className="justify-content-center">
                   <NavItem>
                     <Link to="/" className="nav-link">Home</Link>
                   </NavItem>
@@ -60,21 +60,26 @@ function App() {
           <Route path="/About" exact component={About}></Route>
           <Route component={Error}></Route>
         </Switch>
-        <Container>
-            <Row>
-              <Col xs="12" sm="8">
-                <p>&copy; 2021 by <strong>André</strong>. All rights reserved.</p>
-              </Col>
-              <Col xs="12" sm="4">
-                <p>
-                  <span>Social</span>
-                  <span>Social</span>
-                  <span>Social</span>
-                  <span>Social</span>
-                </p>
-              </Col>
-          </Row>
-        </Container>
+        <footer>
+          <Container>
+              <Row>
+                <Col xs="12" sm="12">
+                  <hr/>
+                </Col>
+                <Col xs="12" sm="8">
+                  <p>&copy; 2021 by <strong>André</strong>. All rights reserved.</p>
+                </Col>
+                <Col xs="12" sm="4">
+                  <p>
+                    <span>Social</span>
+                    <span>Social</span>
+                    <span>Social</span>
+                    <span>Social</span>
+                  </p>
+                </Col>
+            </Row>
+          </Container>
+        </footer>
       </Router>
     </div>
   );
