@@ -21,9 +21,9 @@ function Home () {
                     <Row>
                         <Col xs="12" sm={{size: 6, offset: 6}}>
                             <h1 className="title">Hello, world!</h1>
-                            <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
+                            <p className="lead text-justify">This is a sample reactstrap website, inspired from an old wix template : "Mustacchio".</p>
                             <hr />
-                            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                            <p className="text-justify">It's only for learning and practices purposes.</p>
                             <div>
                                 <Button color="primary">Learn More</Button>
                             </div>

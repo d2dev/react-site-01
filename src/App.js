@@ -67,7 +67,7 @@ function App() {
                   <hr/>
                 </Col>
                 <Col xs="12" sm="8">
-                  <p>&copy; 2021 by <strong>André</strong>. All rights reserved.</p>
+                  <p>&copy; 2020 by <strong>André</strong>. All rights reserved.</p>
                 </Col>
                 <Col xs="12" sm="4">
                   <p>
