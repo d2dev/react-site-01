@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <Router>
         <header className="App-header">
-          <img src={logo2} alt="logo" />
+          <img src={logo2} className="App-logo" alt="logo" />
           <Container>
             <Row>
               <Col sm="12">
