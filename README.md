@@ -1,3 +1,11 @@
+# README
+
+This project is only for testing purpose, to practice front end devlopment with react.
+The inspiration for this site was an wix site template, some elements was kept, others updated or changed.
+The original template is no longer online...
+
+# Useful infos
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
