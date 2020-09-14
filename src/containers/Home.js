@@ -22,12 +22,12 @@ function Home () {
             <Jumbotron style={jumboStyle} className="jumbo">
                 <Container fluid>
                     <Row>
-                        <Col xs="12" sm={{size: 6, offset: 6}}>
-                            <h1 className="title">Hello, world!</h1>
-                            <p className="lead text-justify">This is a sample reactstrap website, inspired from an old wix template : "Mustacchio".</p>
-                            <hr />
-                            <p className="text-justify">It's only for learning and practices purposes.</p>
-                            <div className="text-left">
+                        <Col xs="12" sm={{size: 6, offset: 6}} className="text-left">
+                            <h1 className="title">Hello, world!</h1><br/>
+                            <p className="lead">This is a sample reactstrap website,</p>
+                            <p className="lead">inspired from an old wix template : "Mustacchio".</p>
+                            <p className="lead">It's only for learning and practices purposes.</p>
+                            <div>
                                 <Button color="primary">Learn More</Button>
                             </div>
                         </Col>
