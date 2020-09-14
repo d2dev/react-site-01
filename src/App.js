@@ -5,6 +5,8 @@ import './App.css';
 import { Nav, NavItem } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
 
+import NavMenu from './compos/NavMenu';
+
 import Home from "./containers/Home";
 import Blog from "./containers/Blog";
 import Contact from "./containers/Contact";
@@ -23,7 +25,7 @@ function App() {
           <Container>
             <Row>
               <Col sm="12">
-                <Nav className="justify-content-center">
+                {/* <Nav className="justify-content-center">
                   <NavItem>
                     <Link to="/" className="nav-link">Home</Link>
                   </NavItem>
@@ -39,7 +41,8 @@ function App() {
                   <NavItem>
                     <Link to="/contact" className="nav-link">Contact</Link>
                   </NavItem>
-                </Nav>
+                </Nav> */}
+                <NavMenu/>
               </Col>
             </Row>
           </Container>
