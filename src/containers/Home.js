@@ -4,6 +4,9 @@ import { Container, Row, Col } from 'reactstrap';
 import { Card, CardImg, CardBody, CardTitle } from 'reactstrap';
 // import { Component } from "react";
 import heroImg from '../assets/the-beacon.jpg';
+import actorImg from '../assets/the-actor.jpg';
+import fatherImg from '../assets/the-father.jpg';
+import nerdImg from '../assets/the-nerd.jpg';
 import './Home.css';
 
 function Home () {
@@ -24,7 +27,7 @@ function Home () {
                             <p className="lead text-justify">This is a sample reactstrap website, inspired from an old wix template : "Mustacchio".</p>
                             <hr />
                             <p className="text-justify">It's only for learning and practices purposes.</p>
-                            <div>
+                            <div className="text-left">
                                 <Button color="primary">Learn More</Button>
                             </div>
                         </Col>
@@ -35,7 +38,7 @@ function Home () {
                 <Row>
                     <Col xs="12" sm="4">
                     <Card>
-                        <CardImg top width="100%" src={heroImg} alt="Card image cap" />
+                        <CardImg top width="100%" src={fatherImg} alt="Card image cap" />
                         <CardBody>
                         <CardTitle>The father</CardTitle>
                         </CardBody>
@@ -43,7 +46,7 @@ function Home () {
                     </Col>
                     <Col xs="12" sm="4">
                     <Card>
-                        <CardImg top width="100%" src={heroImg} alt="Card image cap" />
+                        <CardImg top width="100%" src={actorImg} alt="Card image cap" />
                         <CardBody>
                         <CardTitle>The actor</CardTitle>
                         </CardBody>
@@ -51,7 +54,7 @@ function Home () {
                     </Col>
                     <Col xs="12" sm="4">
                     <Card>
-                        <CardImg top width="100%" src={heroImg} alt="Card image cap" />
+                        <CardImg top width="100%" src={nerdImg} alt="Card image cap" />
                         <CardBody>
                         <CardTitle>The nerd</CardTitle>
                         </CardBody>
