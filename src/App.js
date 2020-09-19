@@ -23,7 +23,7 @@ function App() {
           <Container>
             <Row>
               <Col sm="12">
-                <Nav className="justify-content-center">
+                <Nav id="menu" className="justify-content-center">
                   <NavItem>
                     <Link to="/" className="nav-link">Home</Link>
                   </NavItem>

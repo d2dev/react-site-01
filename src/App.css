@@ -29,6 +29,15 @@
   color: #61dafb;
 }
 
+#menu li{
+  color: #252525;
+  display: inline-block;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
 /* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
