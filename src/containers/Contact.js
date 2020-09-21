@@ -48,6 +48,8 @@ class Contact extends React.Component {
                                     </Col>
                                 </FormGroup>
                                 <Button>Submit</Button>
+                                <br/>
+                                <br/>
                             </Form>
                         </Col>
                     </Row>

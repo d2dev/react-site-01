@@ -4,7 +4,11 @@ import React from 'react';
 
 function Blog() {
     return(
-        <h1>Blog</h1>
+        <div>
+            <h1>Blog</h1>
+            <br/>
+            <br/>
+        </div>
     );
 }
 
