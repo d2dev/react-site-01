@@ -43,6 +43,23 @@
   color: #252525;
 }
 
+body h1{
+  color: #fff;
+  display: inline;
+  font-family: 'Poller One', cursive;
+  font-size: 35px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+body h1 span{
+  background: #252525;
+  display: inline-block;
+  padding: 15px 28px 12px;
+}
+
 /* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
