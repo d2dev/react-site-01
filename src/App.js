@@ -12,7 +12,7 @@ import Gallery from "./containers/Gallery";
 import About from "./containers/About";
 import Error from "./containers/Error";
 
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, NavLink } from "react-router-dom";
 
 function App() {
   return (
@@ -25,19 +25,19 @@ function App() {
               <Col sm="12">
                 <Nav id="menu" className="justify-content-center">
                   <NavItem>
-                    <Link to="/" className="nav-link">Home</Link>
+                    <NavLink to="/" className="nav-link" activeStyle={{color:'#0ba39c'}}>Home</NavLink>
                   </NavItem>
                   <NavItem>
-                    <Link to="/about" className="nav-link">About</Link>
+                    <NavLink to="/about" className="nav-link" activeStyle={{color:'#0ba39c'}}>About</NavLink>
                   </NavItem>
                   <NavItem>
-                    <Link to="/gallery" className="nav-link">Gallery</Link>
+                    <NavLink to="/gallery" className="nav-link" activeStyle={{color:'#0ba39c'}}>Gallery</NavLink>
                   </NavItem>
                   <NavItem>
-                    <Link to="/blog" className="nav-link">Blog</Link>
+                    <NavLink to="/blog" className="nav-link" activeStyle={{color:'#0ba39c'}}>Blog</NavLink>
                   </NavItem>
                   <NavItem>
-                    <Link to="/contact" className="nav-link">Contact</Link>
+                    <NavLink to="/contact" className="nav-link" activeStyle={{color:'#0ba39c'}}>Contact</NavLink>
                   </NavItem>
                 </Nav>
               </Col>
