@@ -1,13 +1,15 @@
 import React from 'react';
 import { Jumbotron, Button } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
-import { Card, CardImg, CardBody, CardTitle } from 'reactstrap';
+// import { Card, CardImg, CardBody, CardTitle } from 'reactstrap';
 // import { Component } from "react";
 import heroImg from '../assets/the-beacon.jpg';
 import actorImg from '../assets/the-actor.jpg';
 import fatherImg from '../assets/the-father.jpg';
 import nerdImg from '../assets/the-nerd.jpg';
 import './Home.css';
+
+import ImgCompo from '../Compo/ImgCompo';
 
 function Home () {
     const jumboStyle = {
@@ -18,7 +20,6 @@ function Home () {
       }
     return(
         <div>
-            <h1>Bienvenue</h1>
             <Jumbotron style={jumboStyle} className="jumbo">
                 <Container fluid>
                     <Row>
@@ -36,29 +37,23 @@ function Home () {
             </Jumbotron>
             <Container>
                 <Row>
-                    <Col xs="12" sm="4">
-                    <Card>
-                        <CardImg top width="100%" src={fatherImg} alt="Card image cap" />
-                        <CardBody>
-                        <CardTitle>The father</CardTitle>
-                        </CardBody>
-                    </Card>
+                    <Col xs="12" md="4">
+                        <div>
+                            <ImgCompo src={fatherImg} alt="Card image cap"/>
+                            <span className="title">The father</span>
+                        </div>
                     </Col>
-                    <Col xs="12" sm="4">
-                    <Card>
-                        <CardImg top width="100%" src={actorImg} alt="Card image cap" />
-                        <CardBody>
-                        <CardTitle>The actor</CardTitle>
-                        </CardBody>
-                    </Card>
+                    <Col xs="12" md="4">
+                        <div>
+                            <ImgCompo src={actorImg} alt="Card image cap"/>
+                            <span className="title">The actor</span>
+                        </div>
                     </Col>
-                    <Col xs="12" sm="4">
-                    <Card>
-                        <CardImg top width="100%" src={nerdImg} alt="Card image cap" />
-                        <CardBody>
-                        <CardTitle>The nerd</CardTitle>
-                        </CardBody>
-                    </Card>
+                    <Col xs="12" md="4">
+                        <div>
+                            <ImgCompo src={nerdImg} alt="Card image cap"/>
+                            <span className="title">The nerd</span>
+                        </div>
                     </Col>
                 </Row>
             </Container>
