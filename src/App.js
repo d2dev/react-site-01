@@ -43,14 +43,6 @@ function App() {
               </Col>
             </Row>
           </Container>
-          {/* <a
-            className="App-link"
-            href="https://freewebsitetemplates.com/preview/mustacheenthusiast/index.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a> */}
         </header>
         <Switch>
           <Route path="/" exact component={Home}></Route>
@@ -63,14 +55,11 @@ function App() {
         <footer>
           <Container>
               <Row>
-                <Col xs="12" sm="12">
-                  <hr/>
-                </Col>
                 <Col xs="12" sm="8">
-                  <p>&copy; 2020 by <strong>André</strong>. All rights reserved.</p>
+                  <p className="text-left">&copy; 2020 by <strong>André</strong>. All rights reserved.</p>
                 </Col>
                 <Col xs="12" sm="4">
-                  <p>
+                  <p className="text-right">
                     <span>Social</span>
                     <span>Social</span>
                     <span>Social</span>
