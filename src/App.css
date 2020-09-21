@@ -31,12 +31,16 @@
 }
 
 #menu li{
-  color: #252525;
+  /* color: #252525; */
   display: inline-block;
   font-family: "Arial Black", Gadget, sans-serif;
   font-size: 14px;
   font-weight: normal;
   text-transform: uppercase;
+}
+
+#menu li a{
+  color: #252525;
 }
 
 /* @keyframes App-logo-spin {
