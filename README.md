@@ -2,7 +2,8 @@
 
 This project is only for testing purpose, to practice front end devlopment with react.
 The inspiration for this site was an wix site template, some elements was kept, others updated or changed.
-The original template is no longer online...
+
+The original template is [here](https://freewebsitetemplates.com/preview/mustacheenthusiast/index.html).
 
 # Useful infos
 
