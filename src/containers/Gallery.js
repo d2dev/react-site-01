@@ -9,7 +9,11 @@ function Gallery () {
             <Container>
                 <Row>
                     <Col xs="12">
-                        <h1>Pseudo Bootstrap masonry gallery</h1>
+                        <h1><span>Gallery</span></h1>
+                        <br/>
+                        <br/>
+                        <p>Pseudo Bootstrap masonry gallery layout</p>
+                        <br/>
                     </Col>
                 </Row>
                 <Row>

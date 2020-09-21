@@ -19,7 +19,9 @@ function About () {
             <Container>
                 <Row>
                     <Col>
-                        <h1>About</h1>
+                        <h1><span>About</span></h1>
+                        <br/>
+                        <br/>
                         <p className="text-justify">
                             Hello this is a sample About page... about this page.
                             <br/><br/>

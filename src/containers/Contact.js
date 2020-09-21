@@ -32,7 +32,9 @@ class Contact extends React.Component {
                 <Container>
                     <Row>
                         <Col xs={{size:8,offset:2}}>
-                            <h1>Contact</h1>
+                            <h1><span>Contact</span></h1>
+                            <br/>
+                            <br/>
                             <br/>
                             <Form onSubmit={this.handleSubmit}>
                                 <FormGroup row>   
