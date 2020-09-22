@@ -42,6 +42,9 @@
 #menu li a{
   color: #252525;
 }
+#menu li a:hover{
+  color: #0ba39c;
+}
 
 body h1{
   color: #fff;
