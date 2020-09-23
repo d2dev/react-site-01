@@ -80,3 +80,27 @@ footer{
   background-color: #242021;
   color: #fff;
 }
+
+.footer-icon {
+  width: 25px;
+  height: 25px;
+  fill: white;
+  margin: 0;
+  padding: 0;
+  transition: 0.2s ease-in-out;
+}
+.footer-span {
+  background-color: #242021;
+  border: 2px solid white;
+  display: inline-block;
+  margin: 5px;
+  padding: 7px;
+  transition: 0.2s ease-in-out;
+}
+.footer-span:hover .footer-icon {
+  fill: #242021;
+}
+.footer-span:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
