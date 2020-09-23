@@ -14,6 +14,8 @@ import Error from "./containers/Error";
 
 import { BrowserRouter as Router, Route, Switch, NavLink } from "react-router-dom";
 
+import { FaFacebookF, FaTwitter, FaInstagram, FaRegEnvelope } from "react-icons/fa";
+
 function App() {
   return (
     <div className="App">
@@ -55,15 +57,15 @@ function App() {
         <footer>
           <Container>
               <Row>
-                <Col xs="12" sm="8">
-                  <p className="text-left">&copy; 2020 by <strong>André</strong>. All rights reserved.</p>
+                <Col xs="12" md="7">
+                  <p className="text-md-left">&copy; 2020 by <strong>André</strong>. All rights reserved.</p>
                 </Col>
-                <Col xs="12" sm="4">
-                  <p className="text-right">
-                    <span>Social</span>
-                    <span>Social</span>
-                    <span>Social</span>
-                    <span>Social</span>
+                <Col xs="12" md="5">
+                  <p className="text-md-right">
+                    <span className='footer-span'><FaFacebookF size={30} className='footer-icon'/></span>
+                    <span className='footer-span'><FaTwitter size={30} className='footer-icon'/></span>
+                    <span className='footer-span'><FaInstagram size={30} className='footer-icon'/></span>
+                    <span className='footer-span'><FaRegEnvelope size={30} className='footer-icon'/></span>
                   </p>
                 </Col>
             </Row>
