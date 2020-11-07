@@ -8,6 +8,10 @@ function Blog() {
             <h1><span>Blog</span></h1>
             <br/>
             <br/>
+            <br/>
+            <h3>Comming soon...</h3>
+            <br/>
+            <br/>
         </div>
     );
 }
