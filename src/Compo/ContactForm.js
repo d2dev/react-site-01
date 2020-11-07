@@ -40,7 +40,7 @@ export default class ContactForm extends React.Component {
             reply_to: this.state.email
         });
         
-        e.preventDefault();
+        // e.preventDefault();
     }
 
     sendFeedback (serviceId, templateId, variables) {
